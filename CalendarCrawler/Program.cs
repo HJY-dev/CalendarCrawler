@@ -237,7 +237,7 @@ window.Calendar.HuangLi['y{year}'] = window.Calendar.HuangLi['y{year}'] || [];")
                     entity.TabooDo = day.Ji;
                     entity.TraditionLunarDate = day.GanZhi;
 
-                    fsql.InsertOrUpdate<CalendarEntity>().SetSource(entity).ExecuteAffrows();
+                    var result = fsql.InsertOrUpdate<CalendarEntity>().SetSource(entity).ExecuteAffrows();
                 }
 
                 Logger.Info($"数据库插入成功");

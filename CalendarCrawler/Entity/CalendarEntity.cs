@@ -10,7 +10,7 @@ namespace CalendarCrawler.Entity
     /// <summary>
     /// 日历实体
     /// </summary>
-    [Table(Name = "Lunar")]
+    [Table(Name = "Lunars")]
     public class CalendarEntity
     {
         /// <summary>
