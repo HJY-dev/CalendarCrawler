@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2026
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarCrawler", "CalendarCrawler\CalendarCrawler.csproj", "{B4AD0972-E4C0-4A8A-AADD-DE34A277C197}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarCrawlerCore", "CalendarCrawlerCore\CalendarCrawlerCore.csproj", "{DF3A243D-3B46-4E27-B2CF-0D705F10DD75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B4AD0972-E4C0-4A8A-AADD-DE34A277C197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4AD0972-E4C0-4A8A-AADD-DE34A277C197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4AD0972-E4C0-4A8A-AADD-DE34A277C197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF3A243D-3B46-4E27-B2CF-0D705F10DD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF3A243D-3B46-4E27-B2CF-0D705F10DD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF3A243D-3B46-4E27-B2CF-0D705F10DD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF3A243D-3B46-4E27-B2CF-0D705F10DD75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

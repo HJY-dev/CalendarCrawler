@@ -229,10 +229,10 @@ window.Calendar.HuangLi['y{year}'] = window.Calendar.HuangLi['y{year}'] || [];")
                 foreach (var day in model.resultList)
                 {
                     CalendarEntity entity = new CalendarEntity();
-                    entity.LunarDate = day.Nongli;
+                    entity.LunarDate = day.Nongli.TrimEnd();
                     entity.GregorianDate = DateTime.Parse($"{year}/{month}/{day.Day.ToString().PadLeft(2,'0')}");
-                    entity.SolarTerms = day.JieQi;
-                    entity.TraditionFestival = day.JieRi;
+                    entity.SolarTerms = day.JieQi.TrimEnd();
+                    entity.TraditionFestival = day.JieRi.TrimEnd();
                     entity.SuitableDo = day.Yi;
                     entity.TabooDo = day.Ji;
                     entity.TraditionLunarDate = day.GanZhi;
